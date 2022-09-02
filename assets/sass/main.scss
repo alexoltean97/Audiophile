@@ -1,0 +1,202 @@
+:root{
+  --dark-nude:#D87D4A;
+  --light-nude:#FBAF85;
+  --dark:#101010;
+  --gray:#f1f1f1;
+  --light-gray:#fafafa;
+  --white:#ffffff;
+}
+
+$dark-nude: #D87D4A;
+$light-nude: #FBAF85;
+$dark: #101010;
+$gray: #f1f1f1;
+$light-gray: #fafafa;
+$white: #ffffff;
+
+@font-face {
+  font-family: Manrope ;
+  src: url('../fonts/Manrope-Regular.ttf');
+}
+
+body{
+  padding:0;
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+section,
+div,
+header,
+footer{
+  padding: 0;
+  margin: 0;
+}
+
+
+.btn{
+  padding: 15px 30px;
+  font-family: Manrope;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-main{
+  background-color: $dark-nude;
+  color: var(--white);
+}
+/* Header */
+
+.header{
+  padding: 40px 0 0 0;
+  background-color: var(--dark);
+  color:var(--white);
+}
+
+.header .logo h3{
+  font-family: Manrope;
+  font-size: 13px;
+  color: var(--white);
+}
+
+.header .navigation ul li {
+  display: inline;
+  font-size: 13px;
+}
+
+.header .navigation ul li a{
+  padding: 0 10px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* Product */
+
+.product-home{
+  /*background-image: linear-gradient(to right bottom , var(--dark) , transparent), url(../images/home/desktop/image-hero.jpg);*/
+  background-color: var(--dark);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+
+.product-home .store-headlines{
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  text-align: justify;
+}
+
+.product-home .store-headlines .new{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.product-home .store-headlines h1{
+  padding: 25px 0 25px 0;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.product-home .store-headlines h1 .sub-title{
+  display: block;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.product-home .store-headlines .btn-parent{
+  padding-top:50px;
+}
+
+/*** Products ***/
+
+.products{
+  padding: 50px 0 50px 0;
+}
+
+.products .product-box{
+  padding: 25px 0 25px 0;
+  background-color: var(--gray);
+}
+
+.products img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  position: relative;
+  top: 25px;
+}
+
+.products .product-box h3{
+  padding: 40px 0 15px 0;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.products .product-box a {
+  text-align: center;
+}
+
+.products .product-box .btn-shop-parent{
+  text-align: center;
+}
+
+.products .product-box .btn-shop-parent a{
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
