@@ -1,11 +1,3 @@
-:root {
-  --dark-nude:#D87D4A;
-  --light-nude:#FBAF85;
-  --dark:#101010;
-  --gray:#f1f1f1;
-  --light-gray:#fafafa;
-  --white:#ffffff; }
-
 @font-face {
   font-family: Manrope;
   src: url("../fonts/Manrope-Regular.ttf"); }
@@ -41,129 +33,159 @@ footer {
 
 .btn-main {
   background-color: #D87D4A;
-  color: var(--white); }
+  color: #ffffff; }
 
 /* Header */
 .header {
   padding: 40px 0 0 0;
-  background-color: var(--dark);
-  color: var(--white); }
-
-.header .logo h3 {
-  font-family: Manrope;
-  font-size: 13px;
-  color: var(--white); }
-
-.header .navigation ul li {
-  display: inline;
-  font-size: 13px; }
-
-.header .navigation ul li a {
-  padding: 0 10px;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 25px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--white); }
+  background-color: #101010;
+  color: #ffffff; }
+  .header h3 {
+    font-family: Manrope;
+    font-size: 13px;
+    color: #ffffff; }
+  .header .navigation ul li {
+    display: inline;
+    font-size: 13px; }
+    .header .navigation ul li a {
+      padding: 0 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff; }
 
 /* Product */
 .product-home {
-  /*background-image: linear-gradient(to right bottom , var(--dark) , transparent), url(../images/home/desktop/image-hero.jpg);*/
-  background-color: var(--dark);
+  background-color: #101010;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
   position: relative; }
-
-.product-home .store-headlines {
-  color: #fff;
-  position: absolute;
-  top: 25%;
-  text-align: justify; }
-
-.product-home .store-headlines .new {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  color: var(--white);
-  opacity: 0.5; }
-
-.product-home .store-headlines h1 {
-  padding: 25px 0 25px 0;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 58px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--white); }
-
-.product-home .store-headlines h1 .sub-title {
-  display: block;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 58px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--white); }
-
-.product-home .store-headlines .btn-parent {
-  padding-top: 50px; }
+  .product-home .store-headlines {
+    color: #ffffff;
+    position: absolute;
+    top: 25%;
+    text-align: justify; }
+    .product-home .store-headlines .new {
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #ffffff;
+      opacity: 0.5; }
+    .product-home .store-headlines h1 {
+      padding: 25px 0 25px 0;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 58px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ffffff; }
+      .product-home .store-headlines h1 .sub-title {
+        display: block;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffffff; }
+    .product-home .store-headlines .btn-parent {
+      padding-top: 50px; }
 
 /*** Products ***/
 .products {
   padding: 50px 0 50px 0; }
+  .products .product-box {
+    padding: 25px 0 25px 0;
+    background-color: #f1f1f1; }
+    .products .product-box h3 {
+      padding: 40px 0 15px 0;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 1.28571px;
+      text-transform: uppercase;
+      color: #101010; }
+    .products .product-box a {
+      text-align: center; }
+    .products .product-box .btn-shop-parent {
+      text-align: center; }
+      .products .product-box .btn-shop-parent a {
+        text-decoration: none;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #101010;
+        mix-blend-mode: normal;
+        opacity: 0.5; }
+  .products img {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    position: relative;
+    top: 25px; }
 
-.products .product-box {
-  padding: 25px 0 25px 0;
-  background-color: var(--gray); }
+/*** Speaker Product ***/
+.speaker-product {
+  padding: 60px 0 0 0;
+  background-color: #D87D4A;
+  position: relative; }
+  .speaker-product .speaker-image img {
+    width: 410px; }
+  .speaker-product .store-headlines {
+    color: #ffffff;
+    position: absolute;
+    top: 25%;
+    text-align: justify; }
+    .speaker-product .store-headlines h2 {
+      text-transform: uppercase;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 58px;
+      letter-spacing: 2px; }
+    .speaker-product .store-headlines p {
+      padding: 30px 0 30px 0;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.75; }
+    .speaker-product .store-headlines .sub-title {
+      padding-top: 10px;
+      display: block; }
+    .speaker-product .store-headlines .btn-shop {
+      background-color: #101010;
+      color: #ffffff; }
 
-.products img {
-  margin: 0 auto;
-  display: block;
-  width: 100px;
-  position: relative;
-  top: 25px; }
+/*** two-column-products ***/
+.two-column-products {
+  padding: 50px 0 50px 0; }
+  .two-column-products .product-box-text {
+    background-color: #f1f1f1; }
 
-.products .product-box h3 {
-  padding: 40px 0 15px 0;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  letter-spacing: 1.28571px;
-  text-transform: uppercase;
-  color: var(--dark); }
-
-.products .product-box a {
-  text-align: center; }
-
-.products .product-box .btn-shop-parent {
-  text-align: center; }
-
-.products .product-box .btn-shop-parent a {
-  text-decoration: none;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #000000;
-  mix-blend-mode: normal;
-  opacity: 0.5; }
+/*** commercial ***/
